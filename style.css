@@ -1,0 +1,54 @@
+h1 {
+    color: white;
+    font-family: Arial;
+    padding-top: 1cm;
+}
+
+h2 {
+    font-family: sans-serif;
+    border-top: white solid 2px;
+}
+
+body {
+    background: url(Imagens/fundoverde.jpg);
+    background-size: cover;
+}
+
+div {
+    background: url(Imagens/planta.png);
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+.fundo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#ods15 {
+    width: 7cm;
+}
+
+#video {
+    float: right;
+}
+@media screen and (max-width:800px) {
+    #ods15{ height: 7cm;
+        width: 7cm;
+        padding-left: 1cm;
+    }
+    #video{
+        height: 5cm;
+        width: 10cm;
+    }
+
+}
+.lista {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#contribuir{ 
+    font-family: sans-serif;
+    font-size: 25px;
+}
